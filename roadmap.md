@@ -56,7 +56,7 @@
 
 ## 3. Kurikulum per fase
 
-### Fase 0 — Refresh (1 – 28 Nov 2026)
+### Fase 0: Refresh (1 – 28 Nov 2026)
 
 | Minggu | Belajar | Project | LeetCode |
 |---|---|---|---|
@@ -72,7 +72,7 @@
 - [ ] Bisa menurunkan gradien MSE dan cross-entropy di atas kertas
 - [ ] P1a lulus semua test di CI
 
-### Fase 1 — Deep Learning (29 Nov 2026 – 9 Jan 2027)
+### Fase 1: Deep Learning (29 Nov 2026 – 9 Jan 2027)
 
 - Karpathy *Neural Networks: Zero to Hero*: makemore (bigram → MLP → BatchNorm → backprop manual → WaveNet), *Let's build GPT*, *Let's build the GPT Tokenizer*
 - Konsep wajib paham: inisialisasi bobot, normalisasi, residual, attention, optimizer (SGD/Adam/AdamW), learning rate schedule, mixed precision, gradient accumulation, overfitting & regularisasi
@@ -82,7 +82,7 @@
 - [ ] Bisa menulis self-attention dari nol tanpa melihat referensi
 - [ ] P1 selesai sesuai *definition of done*
 
-### Fase 2 — MLOps & Recsys (10 Jan – 6 Mar 2027)
+### Fase 2: MLOps & Recsys (10 Jan – 6 Mar 2027)
 
 - Serving (FastAPI), containerisasi (Docker Compose), CI/CD, experiment tracking & model registry (MLflow), orkestrasi (Prefect), validasi data, monitoring (Prometheus + Grafana), drift (Evidently), deploy ke cloud (GCP Cloud Run atau AWS free tier)
 - Recsys: retrieval vs ranking, matrix factorization, two-tower, ANN search (FAISS), metrik offline (Recall@K, NDCG@K), cold start
@@ -93,7 +93,7 @@
 - [ ] Bisa menjelaskan arsitektur recsys dua tahap (retrieval → ranking) di papan tulis dalam 10 menit
 - [ ] P2 ter-deploy dan dapat diakses publik
 
-### Fase 3 — Flagship Computer Vision (7 Mar – 1 Mei 2027)
+### Fase 3: Flagship Computer Vision (7 Mar – 1 Mei 2027)
 
 - Deteksi objek (arsitektur one-stage vs DETR), mAP, augmentasi data, labeling, multi-object tracking (ByteTrack)
 - Optimasi inference: ONNX, TensorRT (FP16, INT8 + kalibrasi), profiling dengan Nsight Systems, batching
@@ -105,14 +105,14 @@
 - [ ] Tabel benchmark FP32 vs FP16 vs INT8 lengkap dengan angka nyata
 - [ ] P3 selesai, write-up terpublikasi
 
-### Fase 4 — LLM Systems (2 Mei – 5 Jun 2027)
+### Fase 4: LLM Systems (2 Mei – 5 Jun 2027)
 
 - Mekanisme inference LLM: KV cache, batching, paged attention, kuantisasi (AWQ, GPTQ, GGUF)
 - RAG: chunking, embedding, retrieval, reranking, evaluasi (recall retrieval, faithfulness)
 - **Sumber utama:** dokumentasi vLLM, *AI Engineering* (Chip Huyen)
 - **Pendukung:** Hugging Face LLM Course
 
-### Fase 5 — Interview & Apply (6 Jun – Agu 2027)
+### Fase 5: Interview & Apply (6 Jun – Agu 2027)
 
 - ML system design: latihan 8–10 kasus (feed ranking, rekomendasi video, search, deteksi fraud, ads CTR, deteksi konten berbahaya, ETA prediction, visual search)
 - ML fundamentals: bias-variance, regularisasi, metrik, loss function, trade-off model, debugging training
@@ -134,7 +134,7 @@
 - [ ] Demo: video, GIF, atau Hugging Face Space
 - [ ] Riwayat commit rapi (pesan commit bermakna)
 
-### P1 — IndoGPT-mini: Deep Learning dari Nol (Fase 0–1)
+### P1 · IndoGPT-mini: Deep Learning dari Nol (Fase 0–1)
 
 | Tahap | Isi |
 |---|---|
@@ -150,7 +150,7 @@
 
 **Nilai jual:** bekal untuk wawancara ML depth (backprop, attention), dan bukti bahwa kamu paham isi model, bukan sekadar memanggil library.
 
-### P2 — Recommender System + Pipeline MLOps (Fase 2)
+### P2 · Recommender System + Pipeline MLOps (Fase 2)
 
 | Komponen | Isi |
 |---|---|
@@ -168,7 +168,7 @@
 
 **Nilai jual:** TikTok, Netflix, Amazon, Shopee. Project ini menunjukkan kematangan operasional, yaitu kemampuan yang membedakan MLE dari data scientist.
 
-### P3 ⭐ FLAGSHIP — Analitik Lalu Lintas Real-Time di GPU (Fase 3)
+### P3 ⭐ FLAGSHIP · Analitik Lalu Lintas Real-Time di GPU (Fase 3)
 
 | Komponen | Isi |
 |---|---|
@@ -187,7 +187,7 @@
 
 **Nilai jual:** NVIDIA (TensorRT dan Triton adalah stack mereka sendiri), plus Google dan AWS (CV di produksi). Konteks smart city Indonesia membuat ceritanya menarik saat wawancara.
 
-### P4 — LLM Inference & RAG Lab (Fase 4, sengaja dibuat kecil)
+### P4 · LLM Inference & RAG Lab (Fase 4, sengaja dibuat kecil)
 
 | Komponen | Isi |
 |---|---|

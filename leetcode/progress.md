@@ -8,19 +8,19 @@ Daftar soal terkurasi ada di [../roadmap.md](../roadmap.md#5-leetcode-terkurasi-
 2. Kolom **Review** diisi tanggal 1, 3, dan 7 hari setelah pertama kali dikerjakan (spaced repetition).
 3. Kolom **Pola** diisi teknik intinya (misal "two pointer", "sliding window", "BFS").
 
-## L1 — Nov 2026 – Jan 2027
+## L1: Nov 2026 – Jan 2027
 
 | No | Soal | Pola | Kesalahanku | Review 1 | Review 3 | Review 7 |
 |---|---|---|---|---|---|---|
 | | | | | | | |
 
-## L2 — Jan – Apr 2027
+## L2: Jan – Apr 2027
 
 | No | Soal | Pola | Kesalahanku | Review 1 | Review 3 | Review 7 |
 |---|---|---|---|---|---|---|
 | | | | | | | |
 
-## L3 — Apr – Jun 2027
+## L3: Apr – Jun 2027
 
 | No | Soal | Pola | Kesalahanku | Review 1 | Review 3 | Review 7 |
 |---|---|---|---|---|---|---|

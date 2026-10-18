@@ -6,7 +6,7 @@ Mahasiswa semester 7, Universitas Riau · Target: melamar mulai awal Juni 2027.
 
 ## 📍 Status sekarang
 
-**Fase 0 — Refresh** (1 – 28 Nov 2026) · Minggu ke-0 dari 10 di [plans/01-fase0-indogpt-mini.md](plans/01-fase0-indogpt-mini.md)
+**Fase 0: Refresh** (1 – 28 Nov 2026) · Minggu ke-0 dari 10 di [plans/01-fase0-indogpt-mini.md](plans/01-fase0-indogpt-mini.md)
 
 ## 🗺️ Roadmap
 
@@ -25,10 +25,10 @@ Lihat [roadmap.md](roadmap.md) untuk rencana lengkap Nov 2026 – Agu 2027: time
 
 | # | Nama | Repo | Status |
 |---|---|---|---|
-| 1 | IndoGPT-mini — GPT Bahasa Indonesia dari nol (autograd, tokenizer BPE, Transformer) | [indogpt-mini](https://github.com/USERNAME_GITHUB/indogpt-mini) | ⬜ Belum mulai |
-| 2 | Recommender System + pipeline MLOps | — | ⬜ |
-| 3 ⭐ | Analitik lalu lintas real-time (CV + TensorRT + Triton) — flagship | — | ⬜ |
-| 4 | LLM inference & RAG lab | — | ⬜ |
+| 1 | IndoGPT-mini: GPT Bahasa Indonesia dari nol (autograd, tokenizer BPE, Transformer) | [indogpt-mini](https://github.com/USERNAME_GITHUB/indogpt-mini) | ⬜ Belum mulai |
+| 2 | Recommender System + pipeline MLOps | | ⬜ |
+| 3 ⭐ | Analitik lalu lintas real-time, flagship (CV + TensorRT + Triton) | | ⬜ |
+| 4 | LLM inference & RAG lab | | ⬜ |
 
 ## 🧩 LeetCode
 

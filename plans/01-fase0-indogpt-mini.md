@@ -1077,7 +1077,7 @@ GPT kecil untuk Bahasa Indonesia yang dibangun **dari nol**: mesin autograd NumP
 
 > Status: tahap 1a selesai (autograd NumPy + MLP). Tokenizer dan GPT sedang dikerjakan.
 
-## Tahap 1a — Autograd NumPy
+## Tahap 1a · Autograd NumPy
 
 - `indogpt.autograd.scalar`: autograd skalar untuk memahami backpropagation.
 - `indogpt.autograd.tensor`: autograd tensor dengan broadcasting, matmul, dan cross-entropy yang stabil numerik.
@@ -1363,7 +1363,7 @@ def test_ties_broken_by_smallest_pair():
 
 @pytest.mark.parametrize(
     "text",
-    ["", "Halo, dunia!", "Pekanbaru 2026 — kota bertuah 🚀", "    spasi   ganda\n\nbaris baru", "ñandú ✓"],
+    ["", "Halo, dunia!", "Pekanbaru 2026, kota bertuah 🚀", "    spasi   ganda\n\nbaris baru", "ñandú ✓"],
 )
 def test_roundtrip(tok, text):
     assert tok.decode(tok.encode(text)) == text
